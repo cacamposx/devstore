@@ -115,7 +115,7 @@ export default function Index() {
     return (
         <Container>
             <ToastContainer />
-            <LoadingBar color="blue" ref={loading} />
+            <LoadingBar color="#10EAEA" ref={loading} />
             <Menu />
             <Conteudo>
                 <Cabecalho />
@@ -145,11 +145,11 @@ export default function Index() {
                                 
                                 <div className="input-right">
                                     <div className="agp-input">
-                                        <div className="price-product"> Preço DE: </div>  
+                                        <div className="price-product-de"> Preço DE: </div>  
                                         <div className="input"> <input type="text" value={precode} onChange={e => setPrecode(e.target.value)} /> </div>  
                                     </div>
                                     <div className="agp-input">
-                                        <div className="price-product"> Preço POR: </div>  
+                                        <div className="price-product-por"> Preço POR: </div>  
                                         <div className="input"> <input type="text" value={precopor} onChange={e => setPrecopor(e.target.value)} /> </div> 
                                     </div>
                                     <div className="agp-input">
@@ -164,7 +164,7 @@ export default function Index() {
                                         <div className="image-product"> Link Imagem: </div>  
                                         <div className="input-link"> <input value={imagem} onChange={e => setImagem(e.target.value)}/> </div>  
                                     </div>
-                                    <div className="agp-input">
+                                    <div className="agp-input-text">
                                         <div className="description-product"> Descrição: </div>  
                                         <div className="text"> <textarea value={descricao} onChange={e => setDescricao(e.target.value)}/> </div>
                                         <div className="button-create"> <button onClick={inserir}> {idAlterando == 0 ? "Cadastrar" : "Alterar"} </button> </div>

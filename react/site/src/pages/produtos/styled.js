@@ -76,38 +76,49 @@ const Container = styled.div`
     .name-product {
         font-size: 18px;
         color: #615858;
-        width: 5.5em;
-        padding-left: 1em;
+        width: 6.8em;
+        padding-left: 3.1em;
         font-weight: 800;
     }
-
 
     .category-product {
         font-size: 18px;
         color: #615858;
-        width: 5.5em;
+        width: 6.8em;
+        padding-left: 1.5em;
         font-weight: 800;
     }
 
     .evaluation-product {
         font-size: 18px;
         color: #615858;
-        width: 5.5em;
+        width: 6.8em;
+        padding-left: 1.4em;
         font-weight: 800;
     }
 
-    .price-product {
+    .price-product-de {
         font-size: 18px;
         color: #615858;
-        width: 5.5em;
+        width: 6em;
         font-weight: 800;
+        padding-left: 1em;
+    }
+
+    .price-product-por {
+        font-size: 18px;
+        color: #615858;
+        width: 6em;
+        font-weight: 800;
+        padding-left: 0.2em;
     }
 
     .inventory-product {
         font-size: 18px;
         color: #615858;
-        width: 5.5em;
+        width: 6em;
         font-weight: 800;
+        padding-left: 1.3em;
     }
 
     .input-new-product2 {
@@ -129,7 +140,7 @@ const Container = styled.div`
     }
 
     .input-link input {
-        width: 543px;
+        width: 573px;
         height: 36px;
 
         background: #FFFFFF;
@@ -139,19 +150,26 @@ const Container = styled.div`
         padding-left: .5em;
     }
 
+    .agp-input-text {
+        display: flex;
+        flex-direction: row;
+    }
+
     .description-product {
         font-size: 18px;
         color: #615858;
-        margin-right: 1.8em;
         font-weight: 800;
+        padding-left: 1.3em;
+        padding-top: 1.5em;
     }
 
     .text textarea {
         height: 250px;
-        width: 543px;
-        margin: 0px 15px 0px 5px;
+        width: 573px;
+        margin: 0px 20px 0px 14px;
         border-radius: 5px;
         margin-top: 1.5em;
+        
         background: #FFFFFF; 
         border: 1px solid #A8A8A8;
         resize: none;

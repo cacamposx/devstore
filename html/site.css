@@ -76,7 +76,7 @@ input, button {
     margin-left: 1em;
 }
 
-.left-box-aluno {
+.left-box-produto {
     display: flex;
     flex-direction: row;
     
@@ -94,7 +94,7 @@ input, button {
     padding-left: 4.3em;
 
 }
-.left-box-aluno div {
+.left-box-produto div {
     font-weight: 800;
     color: #1A1A1A;
 }
